@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnico Parceiro EsquadGroup</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body onload="editaForm()">
+    <header>
+        <a href="/index.html"><img src="./img/logo-eg.svg" alt="EsquadGroup"></a>
+    </header>
+    <div class="main-container">
+        
+        <div class="box">
+            <h1>
+                Informe de <br />serviços prestados <br />aos clientes EsquadGroup
+            </h1>
+            <hr>
+            <p>
+                Preencha o formulário informando os serviços que foram prestados aos clientes EsquadGroup e mantenha seus benefícios de Técnico Parceiro EG.
+            </p>
+            <div class="buttons">
+                <a href="/index.html" class="btn dark-blue">Voltar</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- <div class="img-form">
+                <img src="./img/tecnico-parceiro.jpg" alt="Técnico Parceiro - EsquadGroup">
+            </div> -->
+            <div class="formulario">
+                <!--Formulário Erick Ouvidoria-->
+                <iframe width="640px" height= "680px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=X-bGrEyTrUq4n2x6YQH2D2QSBJ6jpdRDkYL657fpelNUNTI5WEIzRVRHSTEzVVhYRUlaOFBGMVZWRy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" id="form-microsoft" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+            </div>
+   
+        </div>
+        
+        
+    </div>
+    <div class="chamada-participe">
+        <p>
+            Ainda não é um Técnico Parceiro EG? <a href="#"> Descubra como fazer parte!</a>
+        </p>
+    </div>
+</body>
+<script>
+    var editaForm = () =>{
+        
+        console.log('aqui estou')
+
+        var titleForm = document.getElementsByClassName('office-form-title-content');
+
+        for(var x=0; x<titleForm.length;x++){
+            console.log(titleForm[x]);
+        }
+
+        
+    }
+    
+</script>
+
+
+</html>
