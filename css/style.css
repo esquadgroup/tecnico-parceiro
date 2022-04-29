@@ -1,0 +1,234 @@
+:root{
+    --texto-cor-principal: #57607A;
+    --light-blue:#3578A6;
+    --light-blue-hover:#3586a6;
+    --dark-blue:#005281;
+    --dark-blue-hover:#006381;
+
+    --green-eg:#D5DD26;
+
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--texto-cor-principal);
+    font-size: 20px;
+    transition: .2s;
+    margin-bottom: 20px;
+}
+.img-hero{
+    width: 90%;
+    max-width: 540px;
+}
+p a{
+    color: var(--light-blue);
+}
+p a:hover{
+    color: var(--dark-blue);
+}
+h1{
+    font-size: 60px;
+}
+h1 span{
+    font-size: 60px;
+    color: var(--light-blue);
+}
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+.light-blue{
+    background-color: var(--light-blue);
+}
+.light-blue:hover{
+    background-color: var(--light-blue-hover);
+}
+
+.dark-blue{
+    background-color: var(--dark-blue);
+}
+
+.dark-blue:hover{
+    background-color: var(--dark-blue-hover);
+}
+header{
+    margin: 0 auto;
+    display: block;
+    width: 375px;
+    padding: 40px 0;
+}
+.main-container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.box{
+    width: 50%;
+    position: relative;
+}
+.img-form{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.box h2 span{
+    color: var(--green-eg);
+    font-weight: 400;
+    font-size: 38px;
+}
+.box h2 span:before{
+    background-color: var(--dark-blue);
+    bottom: 0;
+    content: "";
+    height: 90%;
+    position: absolute;
+    width: calc(100% + 10px);
+    z-index: -1;
+    
+}
+
+.padding-left-30{
+    padding-left: 30px;
+}
+.padding-right-30{
+    padding-right: 30px;
+}
+
+hr{
+    border: 2px solid var(--green-eg);
+    width: 60%;
+
+}
+
+.chamada-participe{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+.sociao-media{
+    text-align: center;
+}
+.sociao-media ul{
+    margin: 0 auto;
+    width: 212px;
+    display: flex;
+    justify-content: space-between;
+}
+.box p {
+    width: 80%;
+
+}
+
+/*Formulario Erick Ouvidoria*/
+.small-screen .office-form-form-title{
+    display: none;
+}
+.small-screen .office-form-notice-container{
+    display: none;
+}
+.office-form-title-content{
+    display: none;
+}
+
+@media (max-width: 1240px){
+    .box{
+        padding: 0 20px !important;
+    }
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 48px;
+    }
+    .box h2 span{
+        font-size: 28px;
+    }
+    header{
+        padding: 30px 0;
+    }
+    
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+    header{
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .main-container{
+        display: block;
+    }
+    .box{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 16px;
+    }
+    hr{
+        margin: 20px auto;
+    }
+    .padding-left-30{
+        padding: 0;
+    }
+    .padding-right-30{
+        padding: 0;
+    }
+    .chamada-participe{
+        position: relative;
+    }
+    .img-hero{
+        
+        max-width: 400px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    .box h2 span{
+        font-size: 22px;
+    }
+    .box p {
+        
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+   
+}
+
+@media (max-width: 425px){
+    .btn{
+        margin: 0 0 20px 0;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .box h2 span{
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 375px){
+
+}
+
